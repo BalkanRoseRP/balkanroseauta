@@ -17,6 +17,42 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+.smooth-image {
+    width: 300px;
+    height: auto;
+    margin: 10px 0;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.smooth-image:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header {
     background-color: #5B94FB;
     color: #fff;
